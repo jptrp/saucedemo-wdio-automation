@@ -1,7 +1,8 @@
-import tseslint from 'typescript-eslint'
-import globals from 'globals'
+// @ts-check
+const tseslint = require('typescript-eslint')
+const globals = require('globals')
 
-export default tseslint.config({
+module.exports = tseslint.config({
   ignores: ['node_modules/', 'reports/', 'allure-results/', 'allure-report/', '*.js'],
   files: ['**/*.ts'],
   languageOptions: {
