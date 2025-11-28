@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "type": "standard",
+      "description": "Standard user with full access"
+    },
+    {
+      "username": "locked_out_user",
+      "password": "secret_sauce",
+      "type": "locked",
+      "description": "User that has been locked out"
+    },
+    {
+      "username": "problem_user",
+      "password": "secret_sauce",
+      "type": "problem",
+      "description": "User experiencing problems with the application"
+    },
+    {
+      "username": "performance_glitch_user",
+      "password": "secret_sauce",
+      "type": "performance",
+      "description": "User with performance issues"
+    },
+    {
+      "username": "error_user",
+      "password": "secret_sauce",
+      "type": "error",
+      "description": "User that encounters errors"
+    },
+    {
+      "username": "visual_user",
+      "password": "secret_sauce",
+      "type": "visual",
+      "description": "User for visual testing"
+    }
+  ],
+  "testCustomers": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "postalCode": "12345",
+      "email": "john.doe@test.com"
+    },
+    {
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "postalCode": "54321",
+      "email": "jane.smith@test.com"
+    },
+    {
+      "firstName": "Bob",
+      "lastName": "Johnson",
+      "postalCode": "98765",
+      "email": "bob.johnson@test.com"
+    }
+  ]
+}
