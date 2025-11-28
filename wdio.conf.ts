@@ -1,5 +1,8 @@
 import type { Options } from '@wdio/types'
 
+// Detect CI environment
+const isCI = process.env.CI === 'true' || process.env.GITHUB_ACTIONS === 'true'
+
 export const config: Options.Testrunner = {
   runner: 'local',
   framework: 'mocha',
@@ -18,11 +21,13 @@ export const config: Options.Testrunner = {
       acceptInsecureCerts: true,
       'goog:chromeOptions': {
         args: [
+          ...(isCI ? ['--headless=new'] : []), // Run headless in CI
           '--disable-gpu',
           '--no-sandbox',
           '--disable-dev-shm-usage',
           '--disable-notifications',
-          '--disable-popup-blocking'
+          '--disable-popup-blocking',
+          '--window-size=1920,1080'
         ]
       }
     }
