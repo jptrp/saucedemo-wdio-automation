@@ -349,8 +349,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Dustin Braun**
 
-- GitHub: [@dustinbraun](https://github.com/dustinbraun)
-- LinkedIn: [Dustin Braun](https://linkedin.com/in/dustinbraun)
+- GitHub: [@jptrp](https://github.com/jptrp)
+- LinkedIn: [Dustin Braun](https://linkedin.com/in/dustinbrauntesting)
 
 ## 🌟 Show Your Support
 
