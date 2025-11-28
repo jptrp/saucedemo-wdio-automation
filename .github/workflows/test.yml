@@ -30,7 +30,7 @@ jobs:
       - name: Setup Chrome and ChromeDriver
         uses: browser-actions/setup-chrome@latest
         with:
-          chrome-version: stable
+          chrome-version: '130'
       
       - name: Display Chrome version
         run: |
